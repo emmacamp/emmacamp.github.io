@@ -3,76 +3,83 @@
 /* Arriba izquierda abajo derecha */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-html{
-    background-image: url("https://ibb.co/wdd5qgP");
+html {
+    background-image: url("./public/Windows\ 11.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-   
+
 }
 
-.hbar{
+.hbar {
     display: flex;
     justify-content: space-between;
 }
-.hbar ul li{
+
+.hbar ul li {
     list-style: none;
     display: inline-block;
-    padding: 10px 10px; 
+    padding: 10px 10px;
 }
 
-.hbar ul li a{
+.hbar ul li a {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    
-}
-.hbar ul li a:hover{
-    color: rgb(153, 40, 40);
-    
+
 }
 
-header{
+.hbar ul li a:hover {
+    color: rgb(153, 40, 40);
+
+}
+
+header {
     background-color: white;
 }
-.nav{
+
+.nav {
     background-color: black;
     padding: 15px;
     text-align: center;
-        
+
 }
-nav .nav li{
+
+nav .nav li {
     display: inline-block;
     text-align: center;
     font-weight: bold;
-    
+
 }
 
-nav .nav li a{
+nav .nav li a {
     text-decoration: none;
     color: white;
     padding: 20px;
 }
-nav .nav li a:hover{
+
+nav .nav li a:hover {
     color: rgb(153, 40, 40);
 }
 
 .form-group {
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
-  }
-  ::placeholder {
+}
+
+::placeholder {
     color: #aab7c4;
-  }
+}
+
 input {
-   border: none;
-   }
-  
+    border: none;
+}
+
 .form-control {
     display: block;
     width: 100%;
@@ -81,47 +88,51 @@ input {
     background-clip: padding-box;
     border-radius: 0.25rem;
 
-  }
+}
 
-.submit-button1{
+.submit-button1 {
     padding: 10px 31px 10px 31px;
     float: left;
     margin-top: 20px;
 
 }
-.submit-button2{
+
+.submit-button2 {
     padding: 10px 20px;
     float: right;
-  }
-  
-.submit-button1, .submit-button2{
+}
+
+.submit-button1,
+.submit-button2 {
     color: #fff;
     background-color: rgb(4, 15, 33);
     background-color: hsl(145, 188, 17);
     border-radius: 20em;
     font-weight: bold;
     border: none;
-    
+
 
 }
 
-.submit-button1:hover, .submit-button2:hover{
-    color:rgb(246, 249, 255);
+.submit-button1:hover,
+.submit-button2:hover {
+    color: rgb(246, 249, 255);
     background-color: rgb(15, 18, 130);
     cursor: pointer;
     transform: scale(1.1);
     transition: 600ms;
-}  
+}
 
 
-.f-section h1{
+.f-section h1 {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
     color: rgb(4, 15, 33);
     margin-top: 20px;
 }
-.f-section{
+
+.f-section {
     backdrop-filter: blur(5px);
     background-color: rgba(243, 243, 243, 0.2);
     color: aliceblue;
@@ -134,10 +145,10 @@ input {
     padding: 5%;
     text-align: justify;
     font-weight: bold;
-    
+
 }
 
-footer{
+footer {
     background-color: rgb(4, 15, 33);
     color: whitesmoke;
     padding: 10px;
