@@ -9,16 +9,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html {
+body {
     background-image: url("./public/Windows\ 11.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
+
 .hbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .hbar ul li {
@@ -43,10 +47,17 @@ header {
     background-color: white;
 }
 
-.nav {
+nav {
     background-color: black;
+
+}
+
+.nav {
     padding: 15px;
     text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+
 
 }
 
@@ -70,6 +81,7 @@ nav .nav li a:hover {
 .form-group {
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
+
 }
 
 ::placeholder {
@@ -130,6 +142,7 @@ input {
     font-weight: bold;
     color: rgb(4, 15, 33);
     margin-top: 20px;
+    max-width: 1400px;
 }
 
 .f-section {
@@ -145,6 +158,7 @@ input {
     padding: 5%;
     text-align: justify;
     font-weight: bold;
+    max-width: 1400px;
 
 }
 
